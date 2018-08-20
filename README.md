@@ -5,14 +5,14 @@ Genetic algorithm in C++ to solve the TSP problem.
 Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?
 
 ## Constraint 
-TSP in an NP problem.
+TSP in an NP problem.<br/>
 Learn about NP problems: http://mathworld.wolfram.com/NP-Problem.html
 
 ## Idea
-Use a genetic algorithm to solve the problem.
+Use a genetic algorithm to solve the problem.<br/>
 Learn about genetic algorithms: https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3
 
-Use a String to represent the order in which the towns/nodes are visited
+Use a String to represent the order in which the towns/nodes are visited.<br/>
 As a simplification we can enumerate the towns/nodes so that the string is any permutation of :
 1234…n for problems with n nodes.
 
